@@ -3,3 +3,20 @@ bx8u
 FUSE filesystem that makes a maildir less scary
 
 The name comes from banging on the keyboard, as usual.
+
+Interface
+-----------
+A maildir looks like this.
+
+    INBOX/
+      tmp/
+      new/
+        1459784572_1.29149.tlevine,U=23973,FMD5=ec8374db32bacb4cd9760199ec42819e:2,
+      cur/
+        1450059273_0.21513.tlevine,U=19,FMD5=7e33429f656f1e6e9d79b29c3f82c57e:2,S
+        ...
+
+A bx8u looks like this.
+
+    INBOX/
+      
