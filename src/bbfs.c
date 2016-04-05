@@ -41,6 +41,8 @@
 #include <sys/xattr.h>
 #endif
 
+#include "log.h"
+
 //  All the paths I see are relative to the root of the mounted
 //  filesystem.  In order to get to the underlying filesystem, I need to
 //  have the mountpoint.  I'll save it away early on in main(), and then
